@@ -2,11 +2,11 @@
 
 Sistema web administrativo com autenticação, perfis de acesso, permissões e logs de auditoria.
 
-## 🌐 Link de acesso
+## Link de acesso
 
 https://system-adm-jeag.vercel.app/login
 
-## 🔑 Credenciais de acesso
+## Credenciais de acesso
 
 | Perfil | E-mail | Senha |
 |---|---|---|
