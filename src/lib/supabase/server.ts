@@ -13,13 +13,21 @@ export async function createClient() {
         getAll() {
           return cookieStore.getAll()
         },
+<<<<<<< HEAD
         setAll(cookiesToSet) {
+=======
+        setAll(cookiesToSet: Array<{ name: string; value: string; options?: any }>) {
+>>>>>>> 13f66195e627efed488ca212ed3daeb5e77a3ffc
           try {
             cookiesToSet.forEach(({ name, value, options }) =>
               cookieStore.set(name, value, options)
             )
           } catch {
+<<<<<<< HEAD
             // Server Component — cookies só podem ser alterados em Actions/Route Handlers
+=======
+            // Server Component
+>>>>>>> 13f66195e627efed488ca212ed3daeb5e77a3ffc
           }
         },
       },
@@ -33,4 +41,8 @@ export function createAdminClient() {
     process.env.SUPABASE_SERVICE_ROLE_KEY!,
     { auth: { autoRefreshToken: false, persistSession: false } }
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 13f66195e627efed488ca212ed3daeb5e77a3ffc
