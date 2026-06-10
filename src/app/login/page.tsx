@@ -5,6 +5,11 @@
 import { useState } from 'react'
 import { loginAction } from './actions'
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 13f66195e627efed488ca212ed3daeb5e77a3ffc
 export default function LoginPage() {
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
